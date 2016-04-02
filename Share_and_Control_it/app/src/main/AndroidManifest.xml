@@ -4,6 +4,7 @@
 
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -19,9 +20,11 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".RemoteControl">
+        <activity android:name=".Settings">
 
         </activity>
+        <activity android:name=".MouseActivity"></activity>
+        <activity android:name=".RemoteActivity"></activity>
     </application>
 
 </manifest>
