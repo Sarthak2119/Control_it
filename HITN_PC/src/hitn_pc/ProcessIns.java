@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package getme;
+package hitn_pc;
 
 import java.awt.AWTException;
 import java.awt.MouseInfo;
