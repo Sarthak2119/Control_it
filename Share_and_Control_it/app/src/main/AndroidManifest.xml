@@ -25,6 +25,7 @@
         </activity>
         <activity android:name=".MouseActivity"></activity>
         <activity android:name=".RemoteActivity"></activity>
+
     </application>
 
 </manifest>

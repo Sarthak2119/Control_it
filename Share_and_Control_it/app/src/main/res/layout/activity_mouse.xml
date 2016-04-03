@@ -20,15 +20,20 @@
         android:orientation="horizontal"
         android:layout_alignParentBottom="true">
         <Button
+            android:background="@drawable/red_button"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:layout_weight="0.87"
+            android:textColor="#fdfdfd"
             android:text="Left Click"
             android:onClick="leftClick"/>
         <Button
+            android:background="@drawable/red_button"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="1"
+            android:layout_weight="0.77"
+            android:textColor="#fdfdfd"
             android:text="Right Click"
             android:onClick="rightClick"/>
 
